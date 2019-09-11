@@ -1,0 +1,5 @@
+targets = [ "//:b" ]
+
+[[dependency]]
+package = "github.com/njlr/bazel-test-a"
+version = "*"

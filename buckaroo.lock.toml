@@ -1,0 +1,9 @@
+manifest = "07ce80f9d84c418f31aefbdf0cb579a15da4809122c3d53178006e06c8025423"
+
+[[dependency]]
+package = "github.com/njlr/bazel-test-a"
+target = "//:a"
+
+[lock."github.com/njlr/bazel-test-a"]
+versions = [ "branch=master" ]
+revision = "3aa5ce10f59f75746a3302bfee7ee7d6344e1146"
