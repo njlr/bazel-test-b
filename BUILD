@@ -1,4 +1,4 @@
-load("//:buckaroo/defs.bzl", "buckaroo_workspace")
+load("@buckaroo//:defs.bzl", "buckaroo_workspace")
 
 a = "@" + buckaroo_workspace("github.com/njlr/bazel-test-a") + "//:a"
 
